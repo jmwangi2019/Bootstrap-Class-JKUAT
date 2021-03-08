@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NavBar and Carousel</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark" style="background: darkgreen;">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img src="images/logo.jpg" alt="Logo" width="40" height="40">
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Our Partners</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Products and Services
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Computers and Computer Accessories</a>
+                <a class="dropdown-item" href="#">Computer Maintenace and Repair</a>
+                <a class="dropdown-item" href="#">CCTV Installation</a>
+                <a class="dropdown-item" href="#">VSAT Installation</a>
+                <a class="dropdown-item" href="#">Computer Networking</a>
+                <a class="dropdown-item" href="#">Graphic Design</a>
+                <a class="dropdown-item" href="#">Software and App Development</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Clientele</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="6"></li>
+        <li data-target="#demo" data-slide-to="7"></li>
+        <li data-target="#demo" data-slide-to="8"></li>
+        <li data-target="#demo" data-slide-to="9"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/slides/slide1.jpg" alt="Tech Picture 1" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 1</h3>
+                <p>This is our first technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide2.jpg" alt="Tech Picture 2" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 2</h3>
+                <p>This is our second technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide3.jpg" alt="Tech Picture 3" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 3</h3>
+                <p>This is our third technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide4.jpg" alt="Tech Picture 4" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 4</h3>
+                <p>This is our fourth technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide5.jpg" alt="Tech Picture 5" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 5</h3>
+                <p>This is our fifth technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide6.jpeg" alt="Tech Picture 6" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 6</h3>
+                <p>This is our sixth technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide7.jpg" alt="Tech Picture 7" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 7</h3>
+                <p>This is our seventh technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide8.jpg" alt="Tech Picture 8" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 8</h3>
+                <p>This is our eighth technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide9.jpg" alt="Tech Picture 9" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 9</h3>
+                <p>This is our ninth technology picture.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/slide10.jpg" alt="Tech Picture 10" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Slide 10</h3>
+                <p>This is our tenth technology picture.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+</body>
+</html>
